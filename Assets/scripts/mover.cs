@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class MoverConInputAction : MonoBehaviour
+public class mover : MonoBehaviour
 {
     [SerializeField]
 
@@ -45,6 +45,5 @@ public class MoverConInputAction : MonoBehaviour
         Vector2 movimiento /*vector de movimiento*/ = accionMover.ReadValue<Vector2>();
         //transform.position = (Vector2)transform.position + Time.deltaTime * velocidadX * movimiento;
         rb.linearVelocityX = movimiento.x * velocidadX;
-        rb.linearVelocityY = movimiento.y * velocidadY;
     }
 }
