@@ -1,2 +1,4 @@
 # SuperMario_Gabriel
-papuproyecto
+https://github.com/gabrielmc05/SuperMario_Gabriel
+
+

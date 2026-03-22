@@ -8,12 +8,15 @@ public class EstadoPersonaje : MonoBehaviour  // La clase EstadoPersonaje hereda
 
     void OnTriggerEnter2D(Collider2D collision) 
     {
+        // Cuando el personaje entra en contacto con un collider (como el piso), establece que está en el piso
         estaEnPiso = true;
     }
     
     void OnTriggerExit2D(Collider2D collision)
     {
+        // Cuando el personaje sale del contacto con un collider, establece que no está en el piso
         estaEnPiso = false;
+        // Imprime el estado para depuración
         print(estaEnPiso);
     }
 }
