@@ -21,3 +21,10 @@
 
 .boton-juego:hover {
 }
+
+.hidden {
+    display: none;
+}
+#ScrollCreditos {
+    overflow: hidden;
+}
