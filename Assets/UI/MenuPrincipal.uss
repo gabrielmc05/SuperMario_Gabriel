@@ -1,0 +1,23 @@
+:root {
+}
+
+.menu {
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.botones {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boton-juego {
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/3.png?fileID=2800000&guid=80ffb44714cac104692020b7a7aac810&type=3#3");
+}
+
+.boton-juego:hover {
+}
